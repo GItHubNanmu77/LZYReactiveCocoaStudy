@@ -15,6 +15,11 @@
 		4A13314422D3276100AE3EF1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A13314322D3276100AE3EF1 /* main.m */; };
 		4A13314E22D3276200AE3EF1 /* LZYReactiveCocoaStudyTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A13314D22D3276200AE3EF1 /* LZYReactiveCocoaStudyTests.m */; };
 		4A13315922D3276200AE3EF1 /* LZYReactiveCocoaStudyUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A13315822D3276200AE3EF1 /* LZYReactiveCocoaStudyUITests.m */; };
+		4A13316822D466B200AE3EF1 /* LLLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A13316722D466B200AE3EF1 /* LLLoginViewController.m */; };
+		4A13316B22D471A200AE3EF1 /* LoginViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A13316A22D471A200AE3EF1 /* LoginViewModel.m */; };
+		4A13316E22D493AD00AE3EF1 /* LLHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A13316D22D493AD00AE3EF1 /* LLHomeViewController.m */; };
+		4A13317122D493ED00AE3EF1 /* LLHomeViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A13317022D493ED00AE3EF1 /* LLHomeViewModel.m */; };
+		4A13317422D4956200AE3EF1 /* BookModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A13317322D4956200AE3EF1 /* BookModel.m */; };
 		78B12C96ACB8A314EA91ED0B /* libPods-LZYReactiveCocoaStudyTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 12C9EF50901938A3B4A1C837 /* libPods-LZYReactiveCocoaStudyTests.a */; };
 		96904DFD596272602CBD9E0B /* libPods-LZYReactiveCocoaStudy.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DCC864DB85F98EC4A46FC8C /* libPods-LZYReactiveCocoaStudy.a */; };
 		BE1C542497E2AB665768A918 /* libPods-LZYReactiveCocoaStudyUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 24D5E0BB5D2D9DDBED4DF925 /* libPods-LZYReactiveCocoaStudyUITests.a */; };
@@ -58,6 +63,16 @@
 		4A13315422D3276200AE3EF1 /* LZYReactiveCocoaStudyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LZYReactiveCocoaStudyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4A13315822D3276200AE3EF1 /* LZYReactiveCocoaStudyUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LZYReactiveCocoaStudyUITests.m; sourceTree = "<group>"; };
 		4A13315A22D3276200AE3EF1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4A13316622D466B200AE3EF1 /* LLLoginViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LLLoginViewController.h; sourceTree = "<group>"; };
+		4A13316722D466B200AE3EF1 /* LLLoginViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LLLoginViewController.m; sourceTree = "<group>"; };
+		4A13316922D471A200AE3EF1 /* LoginViewModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LoginViewModel.h; sourceTree = "<group>"; };
+		4A13316A22D471A200AE3EF1 /* LoginViewModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LoginViewModel.m; sourceTree = "<group>"; };
+		4A13316C22D493AD00AE3EF1 /* LLHomeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LLHomeViewController.h; sourceTree = "<group>"; };
+		4A13316D22D493AD00AE3EF1 /* LLHomeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LLHomeViewController.m; sourceTree = "<group>"; };
+		4A13316F22D493ED00AE3EF1 /* LLHomeViewModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LLHomeViewModel.h; sourceTree = "<group>"; };
+		4A13317022D493ED00AE3EF1 /* LLHomeViewModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LLHomeViewModel.m; sourceTree = "<group>"; };
+		4A13317222D4956200AE3EF1 /* BookModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BookModel.h; sourceTree = "<group>"; };
+		4A13317322D4956200AE3EF1 /* BookModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BookModel.m; sourceTree = "<group>"; };
 		5DCC864DB85F98EC4A46FC8C /* libPods-LZYReactiveCocoaStudy.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-LZYReactiveCocoaStudy.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		637133CB4E5B128ECF7ED42C /* Pods-LZYReactiveCocoaStudy.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LZYReactiveCocoaStudy.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LZYReactiveCocoaStudy/Pods-LZYReactiveCocoaStudy.debug.xcconfig"; sourceTree = "<group>"; };
 		A5E478D2B4387B5D415AEB4A /* Pods-LZYReactiveCocoaStudy.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LZYReactiveCocoaStudy.release.xcconfig"; path = "Pods/Target Support Files/Pods-LZYReactiveCocoaStudy/Pods-LZYReactiveCocoaStudy.release.xcconfig"; sourceTree = "<group>"; };
@@ -135,6 +150,16 @@
 				4A13313522D3276000AE3EF1 /* AppDelegate.m */,
 				4A13313722D3276000AE3EF1 /* ViewController.h */,
 				4A13313822D3276000AE3EF1 /* ViewController.m */,
+				4A13316622D466B200AE3EF1 /* LLLoginViewController.h */,
+				4A13316722D466B200AE3EF1 /* LLLoginViewController.m */,
+				4A13316922D471A200AE3EF1 /* LoginViewModel.h */,
+				4A13316A22D471A200AE3EF1 /* LoginViewModel.m */,
+				4A13316C22D493AD00AE3EF1 /* LLHomeViewController.h */,
+				4A13316D22D493AD00AE3EF1 /* LLHomeViewController.m */,
+				4A13316F22D493ED00AE3EF1 /* LLHomeViewModel.h */,
+				4A13317022D493ED00AE3EF1 /* LLHomeViewModel.m */,
+				4A13317222D4956200AE3EF1 /* BookModel.h */,
+				4A13317322D4956200AE3EF1 /* BookModel.m */,
 				4A13313A22D3276000AE3EF1 /* Main.storyboard */,
 				4A13313D22D3276100AE3EF1 /* Assets.xcassets */,
 				4A13313F22D3276100AE3EF1 /* LaunchScreen.storyboard */,
@@ -374,8 +399,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4A13317122D493ED00AE3EF1 /* LLHomeViewModel.m in Sources */,
 				4A13313922D3276000AE3EF1 /* ViewController.m in Sources */,
+				4A13317422D4956200AE3EF1 /* BookModel.m in Sources */,
+				4A13316E22D493AD00AE3EF1 /* LLHomeViewController.m in Sources */,
 				4A13314422D3276100AE3EF1 /* main.m in Sources */,
+				4A13316822D466B200AE3EF1 /* LLLoginViewController.m in Sources */,
+				4A13316B22D471A200AE3EF1 /* LoginViewModel.m in Sources */,
 				4A13313622D3276000AE3EF1 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

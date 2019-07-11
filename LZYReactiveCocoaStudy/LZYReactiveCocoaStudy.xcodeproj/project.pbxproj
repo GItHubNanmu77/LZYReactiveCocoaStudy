@@ -20,6 +20,10 @@
 		4A13316E22D493AD00AE3EF1 /* LLHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A13316D22D493AD00AE3EF1 /* LLHomeViewController.m */; };
 		4A13317122D493ED00AE3EF1 /* LLHomeViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A13317022D493ED00AE3EF1 /* LLHomeViewModel.m */; };
 		4A13317422D4956200AE3EF1 /* BookModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A13317322D4956200AE3EF1 /* BookModel.m */; };
+		4A13317922D58CBA00AE3EF1 /* LLTipView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A13317822D58CBA00AE3EF1 /* LLTipView.m */; };
+		4A13317F22D5CAD300AE3EF1 /* LLRACEventViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A13317E22D5CAD300AE3EF1 /* LLRACEventViewController.m */; };
+		4A13318222D5CC2900AE3EF1 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A13318122D5CC2900AE3EF1 /* Person.m */; };
+		4AF8A69B22D716A2005C8E3E /* LLRACClassViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AF8A69A22D716A2005C8E3E /* LLRACClassViewController.m */; };
 		78B12C96ACB8A314EA91ED0B /* libPods-LZYReactiveCocoaStudyTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 12C9EF50901938A3B4A1C837 /* libPods-LZYReactiveCocoaStudyTests.a */; };
 		96904DFD596272602CBD9E0B /* libPods-LZYReactiveCocoaStudy.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DCC864DB85F98EC4A46FC8C /* libPods-LZYReactiveCocoaStudy.a */; };
 		BE1C542497E2AB665768A918 /* libPods-LZYReactiveCocoaStudyUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 24D5E0BB5D2D9DDBED4DF925 /* libPods-LZYReactiveCocoaStudyUITests.a */; };
@@ -73,6 +77,14 @@
 		4A13317022D493ED00AE3EF1 /* LLHomeViewModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LLHomeViewModel.m; sourceTree = "<group>"; };
 		4A13317222D4956200AE3EF1 /* BookModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BookModel.h; sourceTree = "<group>"; };
 		4A13317322D4956200AE3EF1 /* BookModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BookModel.m; sourceTree = "<group>"; };
+		4A13317722D58CBA00AE3EF1 /* LLTipView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LLTipView.h; sourceTree = "<group>"; };
+		4A13317822D58CBA00AE3EF1 /* LLTipView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LLTipView.m; sourceTree = "<group>"; };
+		4A13317D22D5CAD300AE3EF1 /* LLRACEventViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LLRACEventViewController.h; sourceTree = "<group>"; };
+		4A13317E22D5CAD300AE3EF1 /* LLRACEventViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LLRACEventViewController.m; sourceTree = "<group>"; };
+		4A13318022D5CC2900AE3EF1 /* Person.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		4A13318122D5CC2900AE3EF1 /* Person.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
+		4AF8A69922D716A2005C8E3E /* LLRACClassViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LLRACClassViewController.h; sourceTree = "<group>"; };
+		4AF8A69A22D716A2005C8E3E /* LLRACClassViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LLRACClassViewController.m; sourceTree = "<group>"; };
 		5DCC864DB85F98EC4A46FC8C /* libPods-LZYReactiveCocoaStudy.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-LZYReactiveCocoaStudy.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		637133CB4E5B128ECF7ED42C /* Pods-LZYReactiveCocoaStudy.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LZYReactiveCocoaStudy.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LZYReactiveCocoaStudy/Pods-LZYReactiveCocoaStudy.debug.xcconfig"; sourceTree = "<group>"; };
 		A5E478D2B4387B5D415AEB4A /* Pods-LZYReactiveCocoaStudy.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LZYReactiveCocoaStudy.release.xcconfig"; path = "Pods/Target Support Files/Pods-LZYReactiveCocoaStudy/Pods-LZYReactiveCocoaStudy.release.xcconfig"; sourceTree = "<group>"; };
@@ -150,16 +162,12 @@
 				4A13313522D3276000AE3EF1 /* AppDelegate.m */,
 				4A13313722D3276000AE3EF1 /* ViewController.h */,
 				4A13313822D3276000AE3EF1 /* ViewController.m */,
-				4A13316622D466B200AE3EF1 /* LLLoginViewController.h */,
-				4A13316722D466B200AE3EF1 /* LLLoginViewController.m */,
-				4A13316922D471A200AE3EF1 /* LoginViewModel.h */,
-				4A13316A22D471A200AE3EF1 /* LoginViewModel.m */,
-				4A13316C22D493AD00AE3EF1 /* LLHomeViewController.h */,
-				4A13316D22D493AD00AE3EF1 /* LLHomeViewController.m */,
-				4A13316F22D493ED00AE3EF1 /* LLHomeViewModel.h */,
-				4A13317022D493ED00AE3EF1 /* LLHomeViewModel.m */,
-				4A13317222D4956200AE3EF1 /* BookModel.h */,
-				4A13317322D4956200AE3EF1 /* BookModel.m */,
+				4A13317722D58CBA00AE3EF1 /* LLTipView.h */,
+				4A13317822D58CBA00AE3EF1 /* LLTipView.m */,
+				4AF8A69C22D72B81005C8E3E /* RACClass */,
+				4A13318322D5CC3800AE3EF1 /* RACEvent */,
+				4A13317622D58C4800AE3EF1 /* Login */,
+				4A13317522D58C3E00AE3EF1 /* Home */,
 				4A13313A22D3276000AE3EF1 /* Main.storyboard */,
 				4A13313D22D3276100AE3EF1 /* Assets.xcassets */,
 				4A13313F22D3276100AE3EF1 /* LaunchScreen.storyboard */,
@@ -185,6 +193,50 @@
 				4A13315A22D3276200AE3EF1 /* Info.plist */,
 			);
 			path = LZYReactiveCocoaStudyUITests;
+			sourceTree = "<group>";
+		};
+		4A13317522D58C3E00AE3EF1 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				4A13316C22D493AD00AE3EF1 /* LLHomeViewController.h */,
+				4A13316D22D493AD00AE3EF1 /* LLHomeViewController.m */,
+				4A13316F22D493ED00AE3EF1 /* LLHomeViewModel.h */,
+				4A13317022D493ED00AE3EF1 /* LLHomeViewModel.m */,
+				4A13317222D4956200AE3EF1 /* BookModel.h */,
+				4A13317322D4956200AE3EF1 /* BookModel.m */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		4A13317622D58C4800AE3EF1 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				4A13316622D466B200AE3EF1 /* LLLoginViewController.h */,
+				4A13316722D466B200AE3EF1 /* LLLoginViewController.m */,
+				4A13316922D471A200AE3EF1 /* LoginViewModel.h */,
+				4A13316A22D471A200AE3EF1 /* LoginViewModel.m */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		4A13318322D5CC3800AE3EF1 /* RACEvent */ = {
+			isa = PBXGroup;
+			children = (
+				4A13317D22D5CAD300AE3EF1 /* LLRACEventViewController.h */,
+				4A13317E22D5CAD300AE3EF1 /* LLRACEventViewController.m */,
+				4A13318022D5CC2900AE3EF1 /* Person.h */,
+				4A13318122D5CC2900AE3EF1 /* Person.m */,
+			);
+			path = RACEvent;
+			sourceTree = "<group>";
+		};
+		4AF8A69C22D72B81005C8E3E /* RACClass */ = {
+			isa = PBXGroup;
+			children = (
+				4AF8A69922D716A2005C8E3E /* LLRACClassViewController.h */,
+				4AF8A69A22D716A2005C8E3E /* LLRACClassViewController.m */,
+			);
+			path = RACClass;
 			sourceTree = "<group>";
 		};
 		C60D40CD84F433F903958DD3 /* Frameworks */ = {
@@ -400,10 +452,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				4A13317122D493ED00AE3EF1 /* LLHomeViewModel.m in Sources */,
+				4A13317922D58CBA00AE3EF1 /* LLTipView.m in Sources */,
+				4A13318222D5CC2900AE3EF1 /* Person.m in Sources */,
 				4A13313922D3276000AE3EF1 /* ViewController.m in Sources */,
 				4A13317422D4956200AE3EF1 /* BookModel.m in Sources */,
 				4A13316E22D493AD00AE3EF1 /* LLHomeViewController.m in Sources */,
 				4A13314422D3276100AE3EF1 /* main.m in Sources */,
+				4A13317F22D5CAD300AE3EF1 /* LLRACEventViewController.m in Sources */,
+				4AF8A69B22D716A2005C8E3E /* LLRACClassViewController.m in Sources */,
 				4A13316822D466B200AE3EF1 /* LLLoginViewController.m in Sources */,
 				4A13316B22D471A200AE3EF1 /* LoginViewModel.m in Sources */,
 				4A13313622D3276000AE3EF1 /* AppDelegate.m in Sources */,

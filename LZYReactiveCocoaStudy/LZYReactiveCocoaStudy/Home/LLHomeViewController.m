@@ -29,9 +29,12 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+    self.view.backgroundColor = [UIColor whiteColor];
     
     // 创建tableView
-    self.table = [[UITableView alloc] initWithFrame:self.view.bounds];
+    self.table = [[UITableView alloc] initWithFrame:self.view.bounds style:UITableViewStyleGrouped];
+    self.table.separatorStyle = UITableViewCellSeparatorStyleSingleLine;
+    self.table.backgroundColor = [UIColor whiteColor];
     self.table.dataSource = self;
     
     [self.view addSubview:self.table];
